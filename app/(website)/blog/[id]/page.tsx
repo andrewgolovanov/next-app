@@ -12,5 +12,4 @@ export async function generateStaticParams() {
   return [{ id: '1' }, { id: '2' }, { id: '3' }];
 }
 
-const dynamicParams = false;
-export { dynamicParams };
+export const revalidate = 60;
