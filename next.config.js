@@ -1,4 +1,8 @@
 /** @type {import("next").NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-}
+  poweredByHeader: false,
+  //reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
+};
