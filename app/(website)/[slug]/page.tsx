@@ -15,3 +15,6 @@ export async function generateStaticParams() {
     },
   ];
 }
+
+const dynamicParams = false;
+export { dynamicParams };
