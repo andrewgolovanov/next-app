@@ -7,7 +7,9 @@ export default function Page({ searchParams }) {
 }
 
 export async function generateStaticParams() {
-  return {
-    slug: 'test',
-  };
+  return [
+    {
+      slug: 'test',
+    },
+  ];
 }
