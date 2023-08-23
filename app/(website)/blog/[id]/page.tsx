@@ -9,11 +9,7 @@ export default function Page({ searchParams }) {
 }
 
 export async function generateStaticParams() {
-  return [
-    {
-      slug: 'test',
-    },
-  ];
+  return [{ id: '1' }, { id: '2' }, { id: '3' }];
 }
 
 const dynamicParams = false;
