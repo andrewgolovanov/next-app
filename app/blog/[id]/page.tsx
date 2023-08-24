@@ -9,7 +9,7 @@
 export default function Page({ searchParams }) {
   console.log(searchParams);
 
-  return <div>Search Params: make sure the console logs are empty</div>;
+  return <div>Search Params: {searchParams}</div>;
 }
 
 export async function generateStaticParams() {
