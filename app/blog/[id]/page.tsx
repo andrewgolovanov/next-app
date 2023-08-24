@@ -9,9 +9,11 @@
 export default function Page({ searchParams }) {
   console.log(searchParams);
 
-  return <div>Search Params: {searchParams}</div>;
+  return <div>Search Params: make sure the console logs are empty</div>;
 }
 
 export async function generateStaticParams() {
   return [{ id: '1' }, { id: '2' }, { id: '3' }];
 }
+
+export const revalidate = 60;
